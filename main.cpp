@@ -85,6 +85,7 @@ void display() {
     /*Draw camera here - write replacement file  */
     /*gluLookAt(0.0,2.0,5.0,0.0,0.0,0.0,0.0,1.0,0.0);*/
     camera cameraA(0.0,1.0,5.0,0.0,0.0,0.0,0.0,1.0,0.0);
+    cameraA.getPos();
     /*lighting setup*/
     glLightfv(GL_LIGHT0,GL_POSITION,lightPos);
     /*Draw object*/

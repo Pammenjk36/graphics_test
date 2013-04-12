@@ -20,6 +20,7 @@ private:
     float l_oriX;
     float l_oriY;
     float l_oriZ;
+    vector <float> pos; 
 
 public:
     camera(float posX, float posY, float posZ, float locX, float locY, float locZ, float oriX, float oriY, float oriZ);//Constructor
@@ -27,6 +28,8 @@ public:
     void setPos(float posX, float posY, float posZ);
     void setLoc(float locX, float locY, float locZ);
     void setOri(float oriX, float oriY, float oriZ);  
+    
+    vector<float> getPos() {return pos;}
     
 };
 

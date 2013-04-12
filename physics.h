@@ -8,10 +8,10 @@
 #ifndef PHYSICS_H
 #define	PHYSICS_H
 
-float moveForward();
-float moveBack();
-float moveLeft();
-float moveRight();
+float moveForward(){};
+float moveBack(){};
+float moveLeft(){};
+float moveRight(){};
 
 #endif	/* PHYSICS_H */
 

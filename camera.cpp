@@ -36,3 +36,8 @@ void camera::setPos(float posX, float posY, float posZ)
     l_posY = posY;
     l_posZ = posZ;
 }
+
+vector <float> camera::getPos()
+{
+    return pos;
+}
